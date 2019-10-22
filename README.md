@@ -1,4 +1,1 @@
 # PyCourse
-PyCourse
-
-Ok
