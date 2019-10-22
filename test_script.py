@@ -11,6 +11,5 @@ msg["To"] = "assistenza@gartour.net"
 msg["Subject"] = " $USER Disconnesso da Openvpn 10.3"
  
 msg.attach(html)
- 
-p = Popen(["/usr/bin/sendmail", "-t"], stdin=PIPE)
-p.communicate(msg.as_string()) 
+
+import OpenSSL
